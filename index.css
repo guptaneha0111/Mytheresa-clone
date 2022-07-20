@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+}
+.leftp img{
+    width: 10%;
+    height: 10%;
+}
+nav{
+    padding: 0 30px;
+}
+.parent{
+    margin: auto;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.itemsc{
+    align-items: center;
+}
+.justifyc{
+    justify-content: center;
+}
+.uppr{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bolder;
+}
