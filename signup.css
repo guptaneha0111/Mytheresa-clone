@@ -1,0 +1,81 @@
+.flex{
+    display: flex;
+}
+.leftp img{
+    width: 10%;
+    height: 100%;
+}
+nav{
+    padding: 0 30px;
+}
+.parent{
+    margin: auto;
+   
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.itemsc{
+    align-items: center;
+}
+.justifyc{
+    justify-content: center;
+}
+.uppr{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bolder;
+}
+.spaceb{
+    justify-content: space-between;
+}
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.heading{
+text-align: center;
+font-size: 60px;
+margin-top: 40px;
+font-family:inherit;
+}
+#free{
+text-align: center;
+color:crimson;
+}
+#fsearch{
+    height: 30px;
+    width: 100%;
+    margin-right: 20px;
+}
+.sign{
+    margin-top: 80px;
+}
+#form{
+    width: 400px;
+    
+
+}
+input, select{
+    display: block;
+    margin-top: 20px;
+    height: 30px;
+    width: 130%;
+    padding-left: 10px;
+}
+#formp{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+   
+}
+#uls{
+    line-height: 40px;
+    font-size: 20px;
+}
+#submit{
+    width: 40%;
+}
+
