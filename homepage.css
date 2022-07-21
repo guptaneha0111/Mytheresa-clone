@@ -1,0 +1,84 @@
+.flex{
+    display: flex;
+}
+.leftp img{
+    width: 10%;
+    height: 100%;
+}
+nav{
+    padding: 0 30px;
+}
+.parent{
+    margin: auto;
+   
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.itemsc{
+    align-items: center;
+}
+.justifyc{
+    justify-content: center;
+}
+.uppr{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bolder;
+}
+.spaceb{
+    justify-content: space-between;
+}
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.heading{
+text-align: center;
+font-size: 60px;
+margin-top: 40px;
+font-family:inherit;
+}
+#free{
+text-align: center;
+color:crimson;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+#parent2{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 20px;
+  
+}
+.div1{
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: rgb(228, 225, 225);
+    height: auto;
+    padding: 20px;
+}
+.div2{
+    display: flex;
+    gap: 300px;
+}
+.div5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.div5 img{
+    width: 100%;
+}
+.btn{
+    margin-bottom: 50px;
+    width: 10%;
+    height: 30px;
+    border: 0;
+}
