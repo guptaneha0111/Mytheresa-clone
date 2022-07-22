@@ -95,3 +95,36 @@ color:crimson;
 #sortprice{
 border: 0;
 }
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+#container img{
+    width: 90%;
+}
+#container>div{
+    text-align: center;
+    line-height: 10px;
+    margin-top: 20px;
+}
+#container button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 50%;
+}
+#addn{
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+.ldiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.ldiv img{
+    width: 100%;
+}
