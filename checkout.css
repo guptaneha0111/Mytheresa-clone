@@ -1,0 +1,115 @@
+.heading{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+    font-family:inherit;
+    }
+    #links{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1%;
+        font-size: 30px;
+        
+    }
+    #links a{
+        text-decoration: none;
+        color:black;
+        font-size: 30px;
+    }
+    .parent2{
+        width: 90%;
+        border: 0px; 
+        height: auto;
+        margin: auto;
+    }
+    .parent3{
+        display: flex;
+        margin-top: 40px;
+        
+    }
+    #form{
+        width: 400px;
+        
+    
+    }
+    input, select{
+        display: block;
+        margin-top: 20px;
+        height: 30px;
+        width: 130%;
+        padding-left: 10px;
+    }
+    .btn{
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        border-color: grey;
+    }
+    .method{
+        margin-left: 50px;
+    }
+    .line8{
+        margin-left: 200px;
+    }
+    
+    .divh{
+        margin-top: 40px;
+       
+    }
+    #exp{
+        margin-top: 10px;
+        margin-bottom: -30px;
+    }
+    #divf{
+        display: flex;
+       gap: 40px;
+    }
+    #divf img{
+        width: 70%;
+    }
+    .total{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     gap: 50px;
+    
+    }
+    .total1{
+        margin-top: 50px;
+    }
+    .b1{
+        height: 40px;
+        width: 30%;
+        margin-bottom: 40px;
+       
+    }
+    .b2{
+        background-color: black;
+        color: white;
+        height:40px ;
+        width: 40%;
+        margin-bottom: 40px;
+    }
+    #h3{
+        text-align: center;
+    }
+    .bot1{
+    height: 300px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: white;
+    margin-bottom: 30px;
+    
+    }
+    .bot2{
+        font-size: 15px;
+    line-height: 30px;
+    background-color: white;
+    margin-bottom: 30px;
+    
+    }
+    .line1{
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
