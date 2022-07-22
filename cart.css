@@ -161,3 +161,8 @@ background-color: white;
 margin-bottom: 30px;
 
 }
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
