@@ -1,0 +1,97 @@
+.flex{
+    display: flex;
+}
+.leftp img{
+    width: 10%;
+    height: 100%;
+}
+nav{
+    padding: 0 30px;
+}
+.parent{
+    margin: auto;
+   
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.itemsc{
+    align-items: center;
+}
+.justifyc{
+    justify-content: center;
+}
+.uppr{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bolder;
+}
+.spaceb{
+    justify-content: space-between;
+}
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.heading{
+text-align: center;
+font-size: 60px;
+margin-top: 40px;
+font-family:inherit;
+}
+#free{
+text-align: center;
+color:crimson;
+}
+#parent1{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fsearch{
+    height: 30px;
+    width: 100%;
+    margin-right: 20px;
+}
+.line1{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#jh{
+    text-align: center;
+}
+.parent2{
+    width: 90%;
+    border: 0px; 
+    height: auto;
+    margin: auto;
+}
+.imgparent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.imgparent img{
+    width: 100%;
+}
+.imgparent h3{
+    text-align: center;
+}
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin-top: -30px;
+    margin-bottom: -10px;
+   
+}
+#filterjewel{
+    border: 0;
+}
+#sortprice{
+border: 0;
+}
