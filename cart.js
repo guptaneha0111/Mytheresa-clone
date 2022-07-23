@@ -1,11 +1,15 @@
 let container=document.getElementById("container");
 
 let cartLS=JSON.parse(localStorage.getItem("cart-page")) || [];
-function display(data)
+let totalPrice=document.getElementById("total-price");
+display(cartLS);
+function display(cartLS)
 {
-    container.innerHTML=null;
-    data.forEach(function (ele)
+    container.innerHTML="";
+    let total=0;
+    cartLS.forEach(function (ele,index)
     {
+        total=total+Number(ele.price);
         let product=document.createElement("div");
         let img=document.createElement("img");
         img.src=ele.img;
@@ -15,13 +19,39 @@ function display(data)
         name.innerText=ele.pname;
         let price=document.createElement("h4");
         name.innerText=ele.price;
-        let cart=document.createElement("button");
-        cart.innerText="Remove";
-        cart.addEventListener("click",function(){
-            AddToCart(ele);
+        let deletebtn=document.createElement("button");
+        deletebtn.innerText="Remove";
+        deletebtn.addEventListener("click",function(){
+            DeleteCart(index)
         })
-        product.append(img,brand,name,price,cart);
+        product.append(img,brand,name,price,deletebtn);
         container.append(product);
     });
+    totalPrice.innerText=total;
 }
-display(cartLS);
+function   DeleteCart(index)
+{
+    cartLS.splice(index,1);
+    localStorage.setItem("cart-page",JSON.stringify(cartLS))
+    display(cartLS)
+}
+
+
+
+document.getElementById("pb").addEventListener("click",cartj)
+ function cartj(){
+    window.location.href="checkout.html";
+ }
+
+ document.getElementById("pb1").addEventListener("click",cartjj)
+ function cartjj(){
+    window.location.href="checkout.html";
+ }
+
+ document.getElementById("cs").addEventListener("click",cartjjj)
+ function cartjjj(){
+    window.location.href="jewelry.html";
+ }
+
+
+

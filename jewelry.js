@@ -197,6 +197,32 @@ let product_data=[
 let container=document.getElementById("container");
 let filter=document.getElementById("filterjewel");
 let cartLS=JSON.parse(localStorage.getItem("cart-page")) || [];
+document.querySelector("#sortprice").addEventListener("change",handlePriceSort);
+
+function handlePriceSort(){
+   let selected=document.querySelector("#sortprice").value;
+   if(selected=="price low-to-high")
+   {
+    product_data.sort(function(a,b)
+    {
+        return a.price-b.price;
+    });
+    console.log(product_data);
+    display(product_data)
+   }
+   if(selected=="price high-to-low")
+   {
+    product_data.sort(function(a,b)
+    {
+        return b.price-a.price;
+    });
+    console.log(product_data);
+    display(product_data)
+   }
+}
+
+
+
 function display(data)
 {
     container.innerHTML=null;
