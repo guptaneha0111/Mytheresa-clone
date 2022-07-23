@@ -128,3 +128,63 @@ border: 0;
 .ldiv img{
     width: 100%;
 }
+#sb{
+    background-color: black;
+        color: white;
+        height:40px ;
+        width: 15%;
+        margin-bottom: 40px;
+        margin-left: 1080px;
+        font-size: 20px;
+}
+.mid{
+    text-align: center;
+}
+.total{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ gap: 10px;
+
+}
+#input1{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+}
+#input2{
+    text-align: center;
+    height: 35px;
+    background-color: rgb(223, 213, 213);
+    border: 0;
+    width: 30%;
+   
+}
+.total5{
+    margin-right: -600px;
+}
+.linked img{
+    width: 30%;
+   
+}
+.linked4 img{
+    width: 100%;
+}
+#too{
+    margin-left: 800px;
+}
+#too img{
+    width: 100%;
+}
+.to{
+    margin-top: -20px;
+}
+#imgg{
+    text-align: center;
+ 
+}
+#imgg img{
+    width: 10%;
+}
+
+
+

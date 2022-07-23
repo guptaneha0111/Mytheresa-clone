@@ -82,3 +82,68 @@ color:crimson;
     height: 30px;
     border: 0;
 }
+#ma{
+    margin-left: 80px;
+    line-height: 10px;
+    margin-top: 10px;
+}
+.line1{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.parent2{
+    width: 90%;
+    border: 0px; 
+    height: auto;
+    margin: auto;
+}
+.total{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ gap: 10px;
+
+}
+.mid{
+    text-align: center;
+}
+#imgg{
+    text-align: center;
+ 
+}
+#imgg img{
+    width: 10%;
+}
+#input1{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+}
+#input2{
+    text-align: center;
+    height: 35px;
+    background-color: rgb(223, 213, 213);
+    border: 0;
+    width: 30%;
+   
+}
+.total5{
+    margin-right: -600px;
+}
+.linked img{
+    width: 30%;
+   
+}
+.linked4 img{
+    width: 100%;
+}
+#too{
+    margin-left: 800px;
+}
+#too img{
+    width: 100%;
+}
+.to{
+    margin-top: -20px;
+}
+
