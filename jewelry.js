@@ -281,3 +281,10 @@ function AddToCart(product){
    }
 
 }
+
+
+
+document.getElementById("sb").addEventListener("click",shop)
+ function shop(){
+    window.location.href="cart.html";
+ }
