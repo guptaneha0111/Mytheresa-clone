@@ -16,6 +16,9 @@ nav ul li{
     list-style: none;
     padding: 0 10px;
 }
+#login123456{
+    cursor: pointer;
+}
 .itemsc{
     align-items: center;
 }

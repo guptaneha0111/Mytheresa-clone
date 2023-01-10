@@ -62,6 +62,9 @@ color:crimson;
     height: auto;
     margin: auto;
 }
+#signup123456{
+ cursor: pointer;   
+}
 #img123456{
     width: 100%;
 }

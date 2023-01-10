@@ -20,3 +20,8 @@ form.addEventListener("submit",function(event){
     }
 })
  
+
+document.getElementById("login123456").addEventListener("click",login12345678)
+ function login12345678(){
+    window.location.href="login.html";
+ }
