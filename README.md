@@ -12,3 +12,9 @@ JavaScript, Html, CSS
 ## Deployment Link
 
 https://melodious-starburst-72d4cb.netlify.app/
+
+
+
+## Installation
+
+Clone the Repository from Github, start from the live server.
